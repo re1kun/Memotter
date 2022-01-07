@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,textarea:focus,button{
+  outline: none;
+}
+
+body{
+  background: #e6ecf0;
+  font-size: 14px;
+}
+
+ul,li{
+  list-style: none;
+}
+
+#wrapper{
+  max-width: 480px;
+  margin: auto;
+}
+
+header{
+  padding: 10px;
+  background: #E8F5FD;
+}
+
+header img{
+  float: left;
+  margin-right: 10px;
+  border-radius: 16px;
+}
+
+header textarea{
+  width: calc(100% - 44px);
+  height: 32px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #e6ecf0;
+  padding: 5px 8px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+header textarea.focus{
+  height: 80px;
+}
+
+header textarea::placeholder{
+  color: #aab8c2;
+}
+
+header textarea:focus{
+  border-color: #A4D9F9;
+  border-width: 2px;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-right{
+  float: right;
+}
+
+input[type="submit"]{
+  display: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 90px;
+  text-align: center;
+  background: #4AB3F4;
+  font-size: 14px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 45px;
+  border: none;
+}
+
+.stream{
+  background: #fff;
+}
+
+.stream-item{
+  padding: 9px 12px;
+  border-bottom: solid 1px #eee;
+  min-height: 48px;
+}
+
+.stream-item img{
+  border-radius: 24px;
+  float: left;
+  margin-right: 10px;
+}
+
+.full-name{
+  font-weight: bold;
+  color: #14171a;
+  margin-right: 5px;
+}
+
+.user-name{
+  color: #657786;
+}
+
+.tweet-text{
+  margin-left: 58px;
+  color: #14171a;
+}
+
+footer{
+  text-align: center;
+}
+
+#resetBtn{
+  margin-top: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 180px;
+  text-align: center;
+  background: #B20008;
+  font-size: 14px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 45px;
+  border: none;
+}
+
+.no-tweet{
+  background: #e6ecf0;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+
+
+div#B {
+  font-size:  15px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+
+div#C {
+  font-size:  15px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+
+div#D {
+  
+  font-size:  40px;
+  right: 0;
+  left: 0;
+  color: #00bfff;
+  text-align: center;
+}
