@@ -159,20 +159,16 @@ div#C {
 }
 
 
-div#D {
-  
-  font-size:  40px;
-  right: 0;
-  left: 0;
-  color: #f5fffa;
-  text-align: center;
-}
-
 .box {
   margin: 30px auto;
   width: 200px;
   height: 60px;
   border-radius:5px;
+  font-size:  40px;
+  right: 0;
+  left: 0;
+  color: #f5fffa;
+  text-align: center;
   background: #87cefa;
   animation: poyon 1.2s infinite;
 }
