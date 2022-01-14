@@ -181,3 +181,23 @@ div#C {
   70%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
   100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
 }
+
+.flowing {
+  font-size:  15px;
+  right: 0;
+  left: 0;
+  text-align: center;
+	color: #000000;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: flowing-anim 3s forwards linear;
+}
+
+@keyframes flowing-anim {
+ 0%{
+     width: 0%;
+   }
+100%{
+     width: 100%;
+   }
+}
