@@ -165,3 +165,21 @@ div#D {
     color: #00bfff;
     text-align: center;
 }
+
+.box {
+  margin: 30px auto;
+  width: 200px;
+  height: 60px;
+  border-radius:5px;
+  background: #87cefa;
+  animation: poyon 1.2s infinite;
+}
+
+@keyframes poyon {
+  0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  15%  { transform: scale(0.9, 0.9) translate(0%, 5%); }
+  30%  { transform: scale(1.3, 0.8) translate(0%, 10%); }
+  50%  { transform: scale(0.8, 1.3) translate(0%, -10%); }
+  70%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+  100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+}
