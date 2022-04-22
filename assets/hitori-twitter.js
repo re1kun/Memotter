@@ -45,7 +45,7 @@ $(function() {
             });
             $(".stream").html(tweetHtml);
         } else {
-            $(".stream").html("<div class='no-tweet'>メモ0件</div>");
+            $(".stream").html("");
         }
     }
 })
