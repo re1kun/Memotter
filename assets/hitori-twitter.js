@@ -40,7 +40,7 @@ $(function() {
             var i = tweetArray.length - 1;
             tweetArray.forEach(function() {
                 console.log(tweetArray[i]);
-                tweetHtml += '<div class="stream-item"><div class="stream-item-header"><img src="assets/img/profile.jpg" width="48" height="48"><a href= "https://help.twitter.com/ja/managing-your-account/about-twitter-verified-accounts" target="_blank" alt="認証済み"> <img src="assets/img/thx.png" width="17" height="17"> </a><span class="full-name">メモbot</span><span class="user-name">@Ar</span></div><div class="tweet-text">' + tweetArray[i] + '</div></div>';
+                tweetHtml += '<div class="stream-item"><div class="stream-item-header"><img src="assets/img/profile.jpg" width="48" height="48"><a href= "https://help.twitter.com/ja/managing-your-account/about-twitter-verified-accounts" target="_blank" alt="認証済み"> <img src="assets/img/thx.png" width="17" height="17"> </a><span class="full-name">自分</span><span class="user-name">@Me</span></div><div class="tweet-text">' + tweetArray[i] + '</div></div>';
                 i--;
             });
             $(".stream").html(tweetHtml);
